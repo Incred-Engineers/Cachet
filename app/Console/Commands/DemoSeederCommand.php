@@ -397,7 +397,7 @@ EINCIDENT;
                 'value' => '7',
             ], [
                 'key'   => 'app_refresh_rate',
-                'value' => '0',
+                'value' => '30000',
             ], [
                 'key'   => 'app_analytics',
                 'value' => 'UA-58442674-3',
