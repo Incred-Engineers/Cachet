@@ -11404,14 +11404,8 @@ textarea {
   border: solid 2px #d5ab07;
 }
 
-.section-status .alert.alert-success {
-  background-color: #ff6600 !important;
-  border: solid 2px #cc5200;
-  color: white;
-}
-
 .alert.alert-success {
-  background-color: #7ED321;
+  background-color: #ff6600;
   border: solid 2px #cc5200;
   color: white;
 }
@@ -11769,6 +11763,21 @@ body.error-page .middle-box h1 {
 
 body.error-page h3.font-bold {
   font-weight: 600;
+}
+
+.banner-container {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
+.banner-container .banner-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 body.swal2-shown {
