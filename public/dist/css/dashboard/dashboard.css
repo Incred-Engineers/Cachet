@@ -11695,6 +11695,10 @@ body.error-page h3.font-bold {
   z-index: -1;
 }
 
+.banner-container .banner-block img {
+  width: 100vw;
+}
+
 .minicolors {
   position: relative;
 }
