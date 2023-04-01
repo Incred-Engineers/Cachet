@@ -11771,6 +11771,10 @@ body.error-page h3.font-bold {
   margin-bottom: 20px;
 }
 
+body {
+  background-image: url(/img/banner/background.png);
+}
+
 body.swal2-shown {
   overflow-y: hidden;
 }

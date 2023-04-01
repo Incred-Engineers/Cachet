@@ -85,12 +85,6 @@
 
     <img src="{{ asset('/img/banner/services-banner.png') }}" class="banner-img">
 
-    <!-- <div class="banner-container">
-        <div class="banner-block">
-            <img src="{{ asset('/img/banner/services-banner.png') }}" class="banner-img">
-        </div>
-    </div> -->
-
     <div class="container" id="app">
         @yield('content')
     </div>

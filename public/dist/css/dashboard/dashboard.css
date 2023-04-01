@@ -11686,6 +11686,10 @@ body.error-page h3.font-bold {
   margin-bottom: 20px;
 }
 
+body {
+  background-image: url(/img/banner/background.png);
+}
+
 .minicolors {
   position: relative;
 }
