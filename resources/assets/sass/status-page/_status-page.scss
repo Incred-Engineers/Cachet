@@ -249,14 +249,6 @@ body.status-page {
         }
     }
 
-    @media (max-width: 530px) {
-        .list-group {
-            .list-group-item {
-                width: 100%;
-            }
-        }
-    }
-
     .list-group {
         // margin-bottom: 20px;
         padding-left: 0;
@@ -351,6 +343,14 @@ body.status-page {
                 color: $cachet-base-dark !important;
             }
 
+        }
+    }
+
+    @media (max-width: 530px) {
+        .list-group {
+            .list-group-item {
+                width: 100% !important;
+            }
         }
     }
 

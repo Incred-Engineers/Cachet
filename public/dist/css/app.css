@@ -13135,12 +13135,6 @@ body.status-page .timeline .moment .panel .panel-body p:not(:last-child), body.s
   }
 }
 
-@media (max-width: 530px) {
-  body.status-page .list-group .list-group-item {
-    width: 100%;
-  }
-}
-
 body.status-page .list-group {
   padding-left: 0;
 }
@@ -13226,6 +13220,12 @@ body.status-page .list-group.components .badge {
 
 body.status-page .list-group.components a {
   color: #333 !important;
+}
+
+@media (max-width: 530px) {
+  body.status-page .list-group .list-group-item {
+    width: 100% !important;
+  }
 }
 
 body.status-page footer {

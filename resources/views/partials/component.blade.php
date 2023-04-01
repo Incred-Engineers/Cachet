@@ -2,7 +2,7 @@
     @if($component->link)
     <a href="{{ $component->link }}" target="_blank" class="links">{!! $component->name !!}</a>
     @else
-    {!! $component->name !!}
+    <strong>{!! $component->name !!}</strong>
     @endif
 
     @if($component->description)
