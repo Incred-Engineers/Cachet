@@ -112,7 +112,7 @@ $factory->define(Setting::class, function ($faker) {
 $factory->define(Setting::class, function ($faker) {
     return [
         'name'  => 'app_refresh_rate',
-        'value' => '30000',
+        'value' => '60000',
     ];
 });
 
