@@ -1,19 +1,5 @@
-.banner-container {
-    position: relative;
-    overflow: hidden;
-    height: 350px;
+.banner-img {
+    width: 100vw;
+    max-height: 350px;
     margin-bottom: 20px;
-    
-    .banner-block {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-
-        img {
-            width: 100vw;
-        }
-    }
 }

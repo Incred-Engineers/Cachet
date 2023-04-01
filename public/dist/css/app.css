@@ -11765,24 +11765,10 @@ body.error-page h3.font-bold {
   font-weight: 600;
 }
 
-.banner-container {
-  position: relative;
-  overflow: hidden;
-  height: 350px;
-  margin-bottom: 20px;
-}
-
-.banner-container .banner-block {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-.banner-container .banner-block img {
+.banner-img {
   width: 100vw;
+  max-height: 350px;
+  margin-bottom: 20px;
 }
 
 body.swal2-shown {
@@ -13145,6 +13131,12 @@ body.status-page .timeline .moment .panel .panel-body p:not(:last-child), body.s
 
 @media (max-width: 767px) {
   body.status-page .timeline .moment .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  body.status-page .list-group .list-group-item {
     width: 100%;
   }
 }

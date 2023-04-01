@@ -11680,24 +11680,10 @@ body.error-page h3.font-bold {
   font-weight: 600;
 }
 
-.banner-container {
-  position: relative;
-  overflow: hidden;
-  height: 350px;
-  margin-bottom: 20px;
-}
-
-.banner-container .banner-block {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-.banner-container .banner-block img {
+.banner-img {
   width: 100vw;
+  max-height: 350px;
+  margin-bottom: 20px;
 }
 
 .minicolors {
