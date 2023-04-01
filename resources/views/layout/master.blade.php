@@ -89,7 +89,7 @@
 
     <div class="banner-conatiner">
         <div class="banner-block">
-            <img src="{{ assets('/img/banner/services-banner.png') }}" class="banner-img">
+            <img src="{{ asset('/img/banner/services-banner.png') }}" class="banner-img">
         </div>
     </div>
 
