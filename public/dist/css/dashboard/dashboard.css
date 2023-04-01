@@ -11688,6 +11688,8 @@ body.error-page h3.font-bold {
 
 body {
   background-image: url(/img/banner/background.png);
+  -webkit-backdrop-filter: brightness(0.9);
+          backdrop-filter: brightness(0.9);
 }
 
 .minicolors {

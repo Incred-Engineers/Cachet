@@ -82,8 +82,9 @@
     @yield('outer-content')
 
     @include('partials.banner')
-
-    <img src="{{ asset('/img/banner/services-banner.png') }}" class="banner-img">
+    <div class="bannner-container">
+        <img src="{{ asset('/img/banner/services-banner.png') }}" class="banner-img">
+    </div>
 
     <div class="container" id="app">
         @yield('content')
