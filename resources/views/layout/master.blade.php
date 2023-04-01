@@ -79,7 +79,7 @@
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     <script type="text/javascript">
         var image = document.getElementsByClassName('banner-img');
-        new simpleParallax(image);
+        // new simpleParallax(image);
     </script>
 </head>
 <body class="status-page @yield('bodyClass')">
@@ -87,11 +87,11 @@
 
     @include('partials.banner')
 
-    <div class="banner-conatiner">
+    <!-- <div class="banner-conatiner">
         <div class="banner-block">
             <img src="{{ assets('/img/banner/services-banner.png') }}" class="banner-img">
         </div>
-    </div>
+    </div> -->
 
     <div class="container" id="app">
         @yield('content')
