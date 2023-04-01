@@ -11404,8 +11404,14 @@ textarea {
   border: solid 2px #d5ab07;
 }
 
+.section-status .alert.alert-success {
+  background-color: #ff6600 !important;
+  border: solid 2px #cc5200;
+  color: white;
+}
+
 .alert.alert-success {
-  background-color: #ff6600;
+  background-color: #7ED321;
   border: solid 2px #cc5200;
   color: white;
 }
