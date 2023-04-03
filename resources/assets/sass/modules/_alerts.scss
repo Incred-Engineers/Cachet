@@ -36,3 +36,17 @@
         }
     }
 }
+
+
+.section-status .alert{
+    &.alert-success {
+        background-color: #ff6600 !important;
+        border: solid 2px #ed6306 !important;
+        color: white;
+
+        a {
+            color: white;
+            font-weight: bold;
+        }
+    }
+}
