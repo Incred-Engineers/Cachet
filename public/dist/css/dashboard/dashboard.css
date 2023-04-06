@@ -11352,17 +11352,6 @@ textarea {
   font-weight: bold;
 }
 
-.section-status .alert.alert-success {
-  background-color: #ff6600 !important;
-  border: solid 2px #ed6306 !important;
-  color: white;
-}
-
-.section-status .alert.alert-success a {
-  color: white;
-  font-weight: bold;
-}
-
 .panel-danger {
   border-color: #ff3c3c;
 }
