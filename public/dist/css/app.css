@@ -13167,10 +13167,6 @@ body.status-page .list-group .list-group-item {
   display: inline-block;
 }
 
-body.status-page .list-group .list-group-item.main-component small.greens {
-  color: #ff6600 !important;
-}
-
 body.status-page .list-group .list-group-item a {
   font-weight: 400;
 }
