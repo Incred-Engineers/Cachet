@@ -76,7 +76,6 @@
     </script>
     <script src="{{ asset(mix('dist/js/manifest.js')) }}"></script>
     <script src="{{ asset(mix('dist/js/vendor.js')) }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 </head>
 <body class="status-page @yield('bodyClass')">
     @yield('outer-content')
@@ -92,9 +91,5 @@
 
     @yield('bottom-content')
     <script src="{{ asset(mix('dist/js/all.js')) }}"></script>
-    <script type="text/javascript">
-        var image = document.getElementsByClassName('banner-img');
-        new simpleParallax(image);
-    </script>
 </body>
 </html>
