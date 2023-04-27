@@ -45,6 +45,8 @@
 
     <title>@yield('title', $siteTitle)</title>
 
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+
     @if($enableExternalDependencies)
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset={{ $fontSubset }}" rel="stylesheet" type="text/css">
     @endif

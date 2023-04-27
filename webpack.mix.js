@@ -26,8 +26,10 @@ mix
         processCssUrls: false
     })
     .js('resources/assets/js/app.js', 'public/dist/js').extract(['vue', 'chart.js'])
+    .js('resources/assets/js/auth.js', 'public/dist/js')
     .scripts([
         'public/dist/js/app.js',
+        'public/dist/js/auth.js',
         'node_modules/es5-shim/es5-shim.js',
         'node_modules/es5-shim/es5-sham.js',
         'node_modules/jquery/dist/jquery.min.js',
