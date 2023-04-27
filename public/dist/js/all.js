@@ -37442,30 +37442,32 @@ var config = {
 };
 
 var auth0 = null;
-auth0 = new Auth0Client({
-    domain: config.domain,
-    client_id: config.clientId,
-    cacheLocation: config.cacheLocation
-});
+setTimeout(function () {
+    auth0 = new Auth0Client({
+        domain: config.domain,
+        client_id: config.clientId,
+        cacheLocation: config.cacheLocation
+    });
 
-var queryParams = getUrlVars();
-if (queryParams.length) {
-    if (queryParams.includes('code') && queryParams.includes('state')) {
-        auth0.handleRedirectCallback().then(function (res) {
-            window.history.replaceState({}, document.title, "/");
-            window.reload();
-        }, function (err) {
-            console.error(err);
-        });
-    } else if (queryParams.includes('error')) {
-        if (queryParams['error'] === 'unauthorized') {
-            localStorage.clear();
-            checkSession();
+    var queryParams = getUrlVars();
+    if (queryParams.length) {
+        if (queryParams.includes('code') && queryParams.includes('state')) {
+            auth0.handleRedirectCallback().then(function (res) {
+                window.history.replaceState({}, document.title, "/");
+                window.reload();
+            }, function (err) {
+                console.error(err);
+            });
+        } else if (queryParams.includes('error')) {
+            if (queryParams['error'] === 'unauthorized') {
+                localStorage.clear();
+                checkSession();
+            }
         }
+    } else {
+        checkSession();
     }
-} else {
-    checkSession();
-}
+}, 500);
 
 function getUrlVars() {
     var vars = [],
