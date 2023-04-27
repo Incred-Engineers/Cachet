@@ -11702,6 +11702,10 @@ body {
   left: 10px;
   top: 20px;
   z-index: 10;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 7px;
+  padding: 10px;
 }
 
 .minicolors {
