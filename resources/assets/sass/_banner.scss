@@ -2,9 +2,21 @@
     width: 100vw;
     max-height: 350px;
     margin-bottom: 20px;
+    z-index: 1;
 }
 
 body {
     background-image: url(/img/banner/background.png);
     backdrop-filter: brightness(0.9);
+}
+
+.banner-container {
+    position: relative;
+}
+
+.incred-logo{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    z-index: 10;
 }

@@ -84,6 +84,7 @@
 
     @include('partials.banner')
     <div class="bannner-container">
+        <img src="{{ asset('/img/incred-logo.png') }}" class="incred-logo">
         <img src="{{ asset('/img/banner/services-banner.png') }}" class="banner-img">
     </div>
 

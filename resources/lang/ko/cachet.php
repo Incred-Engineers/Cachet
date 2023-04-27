@@ -12,7 +12,7 @@
 return [
     // Components
     'components' => [
-        'last_updated' => 'Last updated :timestamp',
+        'last_updated' => 'Last deployed on :timestamp',
         'status'       => [
             1 => '정상',
             2 => '성능 이슈',
