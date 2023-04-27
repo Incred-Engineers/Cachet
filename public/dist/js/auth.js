@@ -42,6 +42,8 @@ setTimeout(function () {
                 localStorage.clear();
                 checkSession();
             }
+        } else {
+            checkSession();
         }
     } else {
         checkSession();
