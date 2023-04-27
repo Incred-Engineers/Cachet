@@ -26,3 +26,9 @@ body {
     border-radius: 7px;
     padding: 10px;
 }
+
+@media screen and (min-width: 500px) {
+    .incred-logo {
+        left: 30px;
+    }
+}

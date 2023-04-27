@@ -11796,6 +11796,12 @@ body {
   padding: 10px;
 }
 
+@media screen and (min-width: 500px) {
+  .incred-logo {
+    left: 30px;
+  }
+}
+
 body.swal2-shown {
   overflow-y: hidden;
 }
