@@ -11770,6 +11770,9 @@ body.error-page h3.font-bold {
   max-height: 350px;
   margin-bottom: 20px;
   z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 200px;
 }
 
 body {
