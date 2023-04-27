@@ -87,6 +87,7 @@
         <img src="{{ asset('/img/banner/services-banner.png') }}" class="banner-img">
     </div>
 
+    <div id="auth-loader"></div>
     <div class="container" id="app">
         @yield('content')
     </div>
