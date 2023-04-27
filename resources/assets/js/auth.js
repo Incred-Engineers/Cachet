@@ -70,7 +70,7 @@ function login(){
 
 function createOverlay(){
     const div = document.createElement('div');
-    div.style = "width: 100vw; height: 100vh; position: fixed; top: 0; bottom:0; right:0; left: 0; background: rgba(0,0,0,0.7);";
+    div.style = "width: 100vw; height: 100vh; position: fixed; top: 0; bottom:0; right:0; left: 0; background: rgba(0,0,0,0.9);z-index:99999";
     document.getElementById('auth-loader').appendChild(div);
 }
 
