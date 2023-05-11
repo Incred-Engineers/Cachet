@@ -31,7 +31,7 @@ return [
     |
     */
 
-    'enable_subscribers' => true,
+    'enable_subscribers' => false,
 
     /*
     |--------------------------------------------------------------------------
